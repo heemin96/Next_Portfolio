@@ -2,11 +2,7 @@ import Link from "next/link";
 import React, { ReactNode, useState } from "react";
 import Image from "next/image";
 
-interface Props {
-  data: ReactNode;
-}
-
-function ProjectItem({ data }: Props) {
+function ProjectItem({ data }: string | null | undefined | number) {
   // const [tag, setTag] = useState([data.properties.Tags.multi_select.name]);
 
   const projectTitle = data.properties.Name.title[0].plain_text;
