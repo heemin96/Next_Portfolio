@@ -1,8 +1,12 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 
-function layout({ children }) {
+interface Props {
+  children: ReactNode;
+}
+
+function layout({ children }: Props) {
   return (
     <>
       <Header />
