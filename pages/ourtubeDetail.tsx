@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "@/components/Layout";
 import Link from "next/link";
-import Head from 'next/head';
+import Head from "next/head";
 
 function ourtubeDetail() {
   return (
@@ -17,33 +17,49 @@ function ourtubeDetail() {
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
               <h1 className=" text-2xl font-medium title-font mb-2 text-gray-900">
-                Ourtube 
+                Ourtube
               </h1>
               <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-                 Detail
+                Detail
               </p>
             </div>
             <div className="flex flex-wrap -m-4">
               <div className="xl:w-1/3 md:w-1/2 p-4">
                 <div className="border border-gray-200 p-6 rounded-lg">
-                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
                   <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                     Swiper v6 migration
                   </h2>
                   <p className="leading-relaxed text-base">
-                    기존 웹페이지에서 사용중인 Full page를 swiper v5 -> v6 Migration 작업
+                    기존 웹페이지에서 사용중인 Full page를 v6 Migration 작업
                   </p>
                 </div>
               </div>
               <div className="xl:w-1/3 md:w-1/2 p-4">
                 <div className="border border-gray-200 p-6 rounded-lg">
-                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
                   <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                     카테고리 기능 추가
                   </h2>
@@ -54,53 +70,87 @@ function ourtubeDetail() {
               </div>
               <div className="xl:w-1/3 md:w-1/2 p-4">
                 <div className="border border-gray-200 p-6 rounded-lg">
-                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
                   <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                     Page Transition
                   </h2>
                   <p className="leading-relaxed text-base">
-                  onepage 방식 홈페이지를 React spring을 통해 page trangition 을 주어 slide animation 효과를 추가
+                    onepage 방식 홈페이지를 React spring을 통해 page trangition
+                    을 주어 slide animation 효과를 추가
                   </p>
                 </div>
               </div>
-              
+
               <div className="xl:w-1/3 md:w-1/2 p-4">
                 <div className="border border-gray-200 p-6 rounded-lg">
-                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
                   <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                     Query string, Kakao Api
                   </h2>
                   <p className="leading-relaxed text-base">
-                    Query string을 통해 데이터를 전달 한 후 kakao api를 사용해 모의투자 공유하기 기능 추가
+                    Query string을 통해 데이터를 전달 한 후 kakao api를 사용해
+                    모의투자 공유하기 기능 추가
                   </p>
                 </div>
               </div>
               <div className="xl:w-1/3 md:w-1/2 p-4">
                 <div className="border border-gray-200 p-6 rounded-lg">
-                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
                   <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                     Responsive
                   </h2>
                   <p className="leading-relaxed text-base">
-                   반응형 layout 작업
+                    반응형 layout 작업
                   </p>
                 </div>
               </div>
               <div className="xl:w-1/3 md:w-1/2 p-4">
                 <div className="border border-gray-200 p-6 rounded-lg">
-                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
                   <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                     Mock data - Api Module
                   </h2>
@@ -109,28 +159,34 @@ function ourtubeDetail() {
                   </p>
                 </div>
               </div>
-              
             </div>
 
-            
             <div className="flex flex-wrap -m-4 mt-4">
               <div className="xl:w-1/3 md:w-1/2 p-4">
                 <div className="border border-gray-200 p-6 rounded-lg">
-          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4 mb-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
                   <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                     Infinite Scrolling
                   </h2>
                   <p className="leading-relaxed text-base">
-                    Observer 객체를 사용 하여 채널 검색시 Infinite Scrolling 기능 추가
+                    Observer 객체를 사용 하여 채널 검색시 Infinite Scrolling
+                    기능 추가
                   </p>
                 </div>
               </div>
-
             </div>
-                
+
             <Link href="/career">
               <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                 Back
