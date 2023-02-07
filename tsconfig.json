@@ -24,7 +24,7 @@
     "**/*.ts",
     "**/*.tsx",
     "postcss.config.js",
-    "components/Layout.jsx"
+    "components/Layout.tsx"
   ],
   "exclude": ["node_modules"]
 }

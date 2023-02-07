@@ -1,8 +1,12 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { ReactNode, useState } from "react";
 import Image from "next/image";
 
-function ProjectItem({ data }) {
+interface Props {
+  data: ReactNode;
+}
+
+function ProjectItem({ data }: Props) {
   // const [tag, setTag] = useState([data.properties.Tags.multi_select.name]);
 
   const projectTitle = data.properties.Name.title[0].plain_text;
