@@ -4,7 +4,7 @@ import Head from "next/head";
 import { TOKEN, DATABASE_ID } from "../config";
 import ProjectItem from "@/components/projects/ProjectItem";
 
-export default function projects({ projects }) {
+export default function projects({ projects }: any) {
   return (
     <Layout>
       <div className="flex flex-col items-center justify-center min-h-screen px-5  mb-10 px-6 ">
@@ -22,7 +22,7 @@ export default function projects({ projects }) {
         </h1>
 
         <div className=" max-w-4xl grid grid-cols-1 md:grid-cols-2 py-10 gap-8 w-full">
-          {projects.results.map((aProject) => (
+          {projects.results.map((aProject: any) => (
             <ProjectItem key={aProject.id} data={aProject} />
           ))}
         </div>
