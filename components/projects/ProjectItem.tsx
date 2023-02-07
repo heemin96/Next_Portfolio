@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { ReactNode, useState } from "react";
 import Image from "next/image";
 
-function ProjectItem({ data }:any {
+function ProjectItem({ data }: any) {
   // const [tag, setTag] = useState([data.properties.Tags.multi_select.name]);
 
   const projectTitle = data.properties.Name.title[0].plain_text;
@@ -15,16 +15,16 @@ function ProjectItem({ data }:any {
   const start = data.properties.Day.date.start;
   const end = data.properties.Day.date.end;
 
-  const calculatedPeriod = (start, end) => {
+  const calculatedPeriod = (start: any, end: any) => {
     const startDateStringArray = start.split("-");
     const endDateStringArray = end.split("-");
 
-    var startDate = new Date(
+    var startDate: any = new Date(
       startDateStringArray[0],
       startDateStringArray[1],
       startDateStringArray[2]
     );
-    var endDate = new Date(
+    var endDate: any = new Date(
       endDateStringArray[0],
       endDateStringArray[1],
       endDateStringArray[2]

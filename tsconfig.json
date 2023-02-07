@@ -4,7 +4,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -24,7 +24,7 @@
     "**/*.ts",
     "**/*.tsx",
     "postcss.config.js",
-    "components/Layout.tsx"
+    "components/Layout.jsx"
   ],
   "exclude": ["node_modules"]
 }
