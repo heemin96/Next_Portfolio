@@ -14,9 +14,11 @@ export default function projects({ projects }) {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <h1 className=" font-bold text-5xl mt-10">
+        <h1 className=" font-bold text-4xl mt-28">
           총 프로젝트 :
-          <span className="pl-4 text-blue-500">{projects.results.length}</span>
+          <span className="pl-4  text-indigo-500">
+            {projects.results.length}
+          </span>
         </h1>
 
         <div className=" max-w-4xl grid grid-cols-1 md:grid-cols-2 py-10 gap-8 w-full">

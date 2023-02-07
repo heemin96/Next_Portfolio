@@ -36,19 +36,19 @@ function ProjectItem({ data }) {
     const diffInMs = Math.abs(endDate - startDate);
     const result = diffInMs / (1000 * 60 * 60 * 24);
 
-    console.log(`기간 : ${result}`);
+    // console.log(`기간 : ${result}`);
     return result;
   };
   // console.log(endDate);
 
   return (
-    <div className="flex flex-col p-6 m-3 bg-gray-400 rounded-xl transition duration-300 transform border border-gray-300 hover:scale-105 hover:shadow-lg dark:border-gray-200/50 ">
+    <div className="flex flex-col p-6 m-3 bg-gray-300 rounded-xl transition duration-300 transform border border-gray-300 hover:scale-105 hover:shadow-lg dark:border-gray-200/50 ">
       <img
         className="rounded-t-xl"
         style={{
-          height: "70%",
+          height: "100%",
           width: "100%",
-          objectFit: "none",
+          // objectFit: "none",
         }}
         src={imgSrc}
       />
@@ -64,7 +64,7 @@ function ProjectItem({ data }) {
         <div className="flex items-start mt-2">
           {tags.map((aTag) => (
             <h1
-              className="px-2 py-1 mr-2 rounded-md bg-blue-400 w-30"
+              className="px-2 py-1 mr-2 rounded-md  text-white bg-indigo-500 w-30 mt-3"
               key={aTag.id}
             >
               {aTag.name}
