@@ -62,7 +62,7 @@ function ProjectItem({ data }: any) {
           작업기간 : {start}~{end} ({calculatedPeriod(start, end)}일)
         </p>
         <div className="flex items-start mt-2">
-          {tags.map((aTag) => (
+          {tags.map((aTag: any) => (
             <h1
               className="px-2 py-1 mr-2 rounded-md  text-white bg-indigo-500 w-30 mt-3"
               key={aTag.id}
