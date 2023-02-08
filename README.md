@@ -1,38 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PortFolio
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<p align="center">
+  <br>
+ Url : https://next-portfolio-lilac-eta.vercel.app/ 
+  <br>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 목차
+- [프로젝트 소개](#프로젝트-소개)
+- [기술스택](#기술-스택)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 프로젝트 소개
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<p align="justify">
+프로젝트 개요/동기
+</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p align="center">
 
-## Deploy on Vercel
+| Index | Detail                                                                                                                                                                                           |
+|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| 구현 기간 | **2023.02.04 ~ 2023.02.07**                                                                                                                                                                                                                                                                                                                                           
+| 요약 |Portfolio 정리를 위한 notion api 이용 사이트 | 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Url : https://next-portfolio-lilac-eta.vercel.app/ 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+</p>
+
+<br>
+
+## 기술 스택
+
+| TypeScript |  Next   |  Node   |
+| :--------: | :------: | :-----: |
+|   <img src="https://play-lh.googleusercontent.com/BbuKPu-946B_nkgFYcE4Y-uxbfoUm8SWNM4j7jMWoCS-jk8TFQWeLTfbLsn6umaQn38=w120-h120-rw">   | <img src="https://velog.velcdn.com/images/hang_kem_0531/post/730a43f8-b7f0-4bdf-8fd2-d4e266e06a0b/image.png"  width="120" height="120"> | <img src="https://user-images.githubusercontent.com/101728625/205825143-b99d9b06-7ad1-4c37-879e-f51e3d5317e4.png"> |
+
+
+
+
+
+
+
+
+
+
+
+
