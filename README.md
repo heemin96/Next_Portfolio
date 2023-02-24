@@ -30,7 +30,7 @@
 | 구현 기간 | **2023.02.04 ~ 2023.02.07**                                                                                                                                                                                                                                                                                                                                           
 | 요약 |Portfolio 정리를 위한 notion api 이용 사이트 | 
 
-Url : https://next-portfolio-lilac-eta.vercel.app/ 
+
 
 </p>
 
